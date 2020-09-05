@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+svg {
+  display: flex;
+  margin: 10px auto;
+  align-content: center;
+}
+.dial {
+  position: absolute;
+  top: 16vh;
+  left: 41vw;
+}
+.button {
+  position: relative;
+  top: 15px;
+  left: 12px;
+}
+#duration {
+  height: 4rem;
+  width: 15rem;
+}
+#duration[type="text"] {
+  text-align: center;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  border: none;
+}
+#start,
+#pause {
+  font-size: 80px;
+  background: none;
+  border: none;
+  padding: 20px;
+}

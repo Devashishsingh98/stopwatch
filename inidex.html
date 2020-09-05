@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <svg height="400" width="400">
+      <circle 
+      r="190" 
+      cx="200" 
+      cy=200
+      fill="transparent"
+      stroke="cyan"
+      stroke-width="15"
+      transform="rotate(-90 200 200)">
+    </svg>
+    <div class="dial">
+      <input type="text" id="duration" placeholder="Enter" />
+      <div class="button">
+        <button id="start"><i class="fa fa-play-circle" aria-hidden="true"></i>
+        </button>
+        <button id="pause"><i class="fa fa-pause-circle" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="timer.js"></script>
+  <script src="index.js"></script>
+</html>
